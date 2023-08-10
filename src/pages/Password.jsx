@@ -3,6 +3,7 @@ import React from 'react'
 export default function Password() {
     return (
         <div className="pt-36 w-[50%] md:w-[20%] m-auto">
+          <img src="/moviebg.jpg" className="flex absolute -z-10 w-full h-full left-0 top-0 opacity-20" />
           <div className="border-2 border-sky-500 rounded-md text-center flex flex-col text-white">
             <h2 className="m-7">To reset your password please enter your e-mail address.</h2>
             <div className="flex flex-col mx-10 text-black">
