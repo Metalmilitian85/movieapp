@@ -8,8 +8,6 @@ import Password from './pages/Password'
 import Signup from './pages/Signup'
 import { AuthContextProvider } from './context/AuthContext'
 import Account from './pages/Account'
-import Protectedroute from './components/Protectedroute'
-
 
 export default function App() {
 
@@ -22,14 +20,7 @@ export default function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/password" element={<Password />} />
             <Route path="/signup" element={<Signup />} />
-            <Route 
-              path="/account" 
-              element={
-                <Protectedroute>
-                  <Account />
-                </Protectedroute>
-              }
-            />
+            <Route path="/account" element={<Account />} />
           </Routes>
       </AuthContextProvider>
     </div>
