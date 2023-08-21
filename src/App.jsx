@@ -8,7 +8,7 @@ import Password from './pages/Password'
 import Signup from './pages/Signup'
 import { AuthContextProvider } from './context/AuthContext'
 import Account from './pages/Account'
-import ProtectedRoute from './components/Protectedroute'
+import Protectedroute from './components/Protectedroute'
 
 
 export default function App() {
