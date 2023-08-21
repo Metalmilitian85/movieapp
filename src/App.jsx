@@ -25,9 +25,9 @@ export default function App() {
             <Route 
               path="/account" 
               element={
-                <ProtectedRoute>
+                <Protectedroute>
                   <Account />
-                </ProtectedRoute>
+                </Protectedroute>
               }
             />
           </Routes>
