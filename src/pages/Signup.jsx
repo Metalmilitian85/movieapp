@@ -42,11 +42,11 @@ function Signup() {
               placeholder="Password" 
               autoComplete="current-password" 
             />
-          <button className="bg-sky-500 rounded-md w-[80px] h-[35px] mb-7 hover:bg-sky-600 hover:border-gray-600 border-2">Sign Up</button>
+          <button className="mx-auto bg-sky-500 rounded-md w-[80px] h-[35px] mb-7 hover:bg-sky-600 hover:border-gray-600 border-2">Sign Up</button>
           </form>
-        <div className="flex items-center">
-          <p>Already have an account?</p>
-          <Link to="/login" ><p>Log In</p></Link>
+        <div className="flex justify-center mb-7">
+          <p className="mr-2">Already have an account?</p>
+          <Link to="/login" className="underline hover:font-semibold"><p>Log In</p></Link>
         </div>
         </div>
     </div>

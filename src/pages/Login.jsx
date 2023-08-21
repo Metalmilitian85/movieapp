@@ -43,10 +43,14 @@ export default function Login() {
                 placeholder="Password" 
                 autoComplete="current-password" 
               />
-              <div className="flex justify-start ml-10">
-              <Link to="/password" ><button className="mb-8 text-white text-xs">Forget password?</button></Link>
+              <button className="bg-sky-500 rounded-md w-[80px] h-[35px] mb-2 mx-auto hover:bg-sky-600 hover:border-gray-600 border-2">Log In</button>
+              <div className="flex mx-auto">
+                <Link to="/password" ><button className="mb-8 text-white text-xs">Forget password?</button></Link>
               </div>
-              <button className="bg-sky-500 rounded-md w-[80px] h-[35px] mb-7 hover:bg-sky-600 hover:border-gray-600 border-2">Log In</button>
+              <div className="flex justify-center mb-7 text-white">
+                <p className="mr-2">Don't have an account?</p>
+                <Link to="/signup" className="underline hover:font-semibold"><p>Sign Up</p></Link>
+              </div>
             </form>
         </div>
       </div>
