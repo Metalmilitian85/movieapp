@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.14.2",
+    "rollup": "^3.28.0",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
