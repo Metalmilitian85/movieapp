@@ -10,9 +10,6 @@ export default function ProtectedRoute({children}) {
         return <Navigate to="/" />
     } else {
         return children
-    }
+    };
 
-  return (
-    <div>ProtectedRoute</div>
-  )
 }
